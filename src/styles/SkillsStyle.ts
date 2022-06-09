@@ -107,6 +107,7 @@ export const SkillsList = styled.div`
     grid-auto-flow: column;
     justify-items: start;
     flex-direction: column;
+    width: 100%;
 
     li {
       ${S.commonDisplay}
