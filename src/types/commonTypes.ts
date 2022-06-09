@@ -1,11 +1,8 @@
-export interface List {
+export interface SkillsDataProps {
   id: number;
   name: string;
   rating: number;
 }
 export interface Props {
   BackColor: string;
-}
-export interface Title {
-  title: string;
 }
