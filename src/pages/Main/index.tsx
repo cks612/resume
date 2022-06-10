@@ -17,6 +17,8 @@ const Main = () => {
         <a href="https://github.com/cks612" target="_blank" rel="noreferrer">
           <MainHeaderImg />
         </a>
+
+        {/* Personal Information Part */}
         <PersonalInfo />
 
         {/* Introduce Part */}
@@ -58,6 +60,8 @@ const Main = () => {
             Boolean={false}
           ></SkillsPart>
         </S.SkillsContainer>
+
+        {/* Project Part */}
       </MainWrapper>
     </>
   );
