@@ -16,8 +16,8 @@ export const Introduce = () => {
             웹 개발에 필요한 JavaScript를 기본으로 React.js와 같은 트렌드의
             프레임워크를 중점적으로 학습하며 Styled-Components, AWS, GIT 등을
             같이 사용하며 프로젝트를 설계부터 개발, 그리고 배포까지 한 경험이
-            있습니다. Easy Coder가 아닌 쉬운 코드를 짜는 Programmer가 되기 위해
-            언제나 고민하고 많은 노력을 합니다.
+            있습니다. 그냥 쉬운 코드를 짜는 Coder가 아닌 가독성 좋은
+            Programmer가 되기 위해 언제나 고민하고 많은 노력을 합니다.
           </p>
           <p>
             OpenAPI와 공공데이터 활용에 관심이 많고, 다양한 방법으로 프로젝트에

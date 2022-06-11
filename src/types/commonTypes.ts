@@ -6,3 +6,9 @@ export interface SkillsDataProps {
 export interface Props {
   BackColor: string;
 }
+
+export interface ExperienceProps {
+  id: number;
+  description?: string;
+  keywords?: string;
+}
