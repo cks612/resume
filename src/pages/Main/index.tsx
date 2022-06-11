@@ -101,8 +101,8 @@ const Main = () => {
         />
 
         <Experience
-          startDate="2020.05"
-          endDate="2020.11"
+          startDate="2020.04.28"
+          endDate="2020.10.20"
           going="수료"
           period="6개월"
           title="쌍용 교육센터"
