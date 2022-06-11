@@ -53,7 +53,7 @@ export const PersonalInfo = () => {
             <S.SimpleIntroduce>
               <i className="fa fa-solid fa-anchor" />
               <span>
-                안녕하세요 코딩으로 항해하면서 성장하는 주니어 개발자입니다!~
+                안녕하세요 코딩으로 항해하면서 성장하는 주니어 개발자입니다!
               </span>
             </S.SimpleIntroduce>
           </S.RightSideContents>
