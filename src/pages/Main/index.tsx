@@ -82,7 +82,7 @@ const Main = () => {
           going="진행중"
           period="1개월"
           title="머치스퀘어"
-          subTitle="1달간 기업협업에 인턴으로 참여하여 실무 개발 프로젝트를 진행 "
+          subTitle="1달간 기업협업 인턴으로 참여하여 실무 개발 프로젝트를 진행 "
           Boolean={true}
           experienceDataList={D.CORPORATE_COOPERATION}
           experienceKeywordDataList={D.COOPERATION_KEYWORDS_LIST}
