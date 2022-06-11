@@ -26,7 +26,7 @@ export const ProfileImg = styled.div`
   ${S.commonBorderBackSize}
   height: 100%;
   width: 100%;
-  background-image: url("/images/aboutME.png");
+  background-image: url("/images/aboutMe.png");
 `;
 
 export const RightSideArea = styled.div`
