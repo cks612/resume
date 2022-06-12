@@ -14,23 +14,23 @@ export const FRONT_END_SKILLS: SkillsDataProps[] = [
 export const BACK_END_SKILLS: SkillsDataProps[] = [
   { id: 1, name: "Java", rating: 2 },
   { id: 2, name: "Spring", rating: 1 },
-  { id: 2, name: "Spring Boot", rating: 1 },
-  { id: 2, name: "Spring MVC", rating: 1 },
+  { id: 3, name: "Spring Boot", rating: 1 },
+  { id: 4, name: "Spring MVC", rating: 1 },
 ];
 
 export const DEVOPS_SKILLS: SkillsDataProps[] = [
   { id: 1, name: "AWS-EC2", rating: 2 },
-  { id: 1, name: "MySql", rating: 1 },
+  { id: 2, name: "MySql", rating: 1 },
 ];
 
 export const COLLABORATION_TOOLS: SkillsDataProps[] = [
   { id: 1, name: "Git / Github", rating: 3 },
   { id: 2, name: "Trello", rating: 3 },
   { id: 3, name: "Notion", rating: 3 },
-  { id: 7, name: "Vs Code", rating: 3 },
-  { id: 6, name: "Slack", rating: 3 },
-  { id: 5, name: "Figma", rating: 2 },
-  { id: 4, name: "Asana", rating: 1 },
+  { id: 4, name: "Vs Code", rating: 3 },
+  { id: 5, name: "Slack", rating: 3 },
+  { id: 6, name: "Figma", rating: 2 },
+  { id: 7, name: "Asana", rating: 1 },
 ];
 
 // Experience 기업협업 Data
