@@ -7,7 +7,7 @@ export const CommonContainer = styled.div`
   margin-top: 3rem !important;
 
   @media ${devices.mobileL} {
-    height: calc(var(--vh, 1vh) * 62);
+    height: calc(var(--vh, 1vh) * 100);
   }
 `;
 
@@ -27,9 +27,9 @@ export const LeftSideArea = styled.div`
   ${S.commonLeftSideArea}
 
   @media ${devices.mobileL} {
-    flex: 0 0 55%;
+    flex: 0 0 100%;
     max-width: 100%;
-    height: 50%;
+    height: 59%;
     margin: 0 auto;
   }
 `;

@@ -9,6 +9,10 @@ interface Props {
 // Skills Part
 export const SkillsContainer = styled.div`
   margin-top: 3rem !important;
+
+  @media ${devices.mobileL} {
+    height: calc(var(--vh, 1vh) * 100vh);
+  }
 `;
 
 export const SkillsSubject = styled.div`

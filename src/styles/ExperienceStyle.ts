@@ -5,6 +5,10 @@ import { devices } from "./MediaQueryStyles";
 
 export const ExperienceContainer = styled.div`
   margin-top: 3rem !important;
+
+  @media ${devices.mobileL} {
+    height: calc(var(--vh, 1vh) * 100);
+  }
 `;
 
 export const ExperienceSubject = styled.div`

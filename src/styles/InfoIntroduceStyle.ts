@@ -7,7 +7,7 @@ export const CommonContainer = styled.div`
   margin-top: 3rem !important;
 
   @media ${devices.mobileL} {
-    height: calc(var(--vh, 1vh) * 70);
+    height: calc(var(--vh, 1vh) * 100vh);
     margin-top: 5rem !important;
   }
 `;
