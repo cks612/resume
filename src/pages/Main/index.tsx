@@ -7,6 +7,7 @@ import * as D from "../../constants/data";
 import { PersonalInfo } from "../../components/Info";
 import { Introduce } from "../../components/Introduce";
 import { Experience } from "../../components/Experience";
+import { devices } from "../../styles/MediaQueryStyles";
 
 const Main = () => {
   return (
@@ -134,4 +135,10 @@ const MainHeaderImg = styled.div`
   width: 149px;
   height: 149px;
   background-image: url("https://camo.githubusercontent.com/25f9d37196ab6f1073589ea5ffc871515d2e56e35ecd546514a0c8d6ac293d76/687474703a2f2f692e696d6775722e636f6d2f6833757477494b2e706e67");
+
+  @media ${devices.mobileL} {
+    width: 5rem;
+    height: 5rem;
+    z-index: -1;
+  }
 `;

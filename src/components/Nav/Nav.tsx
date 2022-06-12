@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { devices } from "../../styles/MediaQueryStyles";
 
 const Nav = () => {
   return <NavHeader></NavHeader>;
@@ -12,4 +13,8 @@ const NavHeader = styled.div`
   width: 100%;
   height: 30px;
   z-index: 100;
+
+  @media ${devices.mobileL} {
+    display: none;
+  }
 `;

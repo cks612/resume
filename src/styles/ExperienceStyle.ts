@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import * as S from "./CommonCssStyles";
+import { devices } from "./MediaQueryStyles";
 // import { Props } from "../types/commonTypes";
 
 export const ExperienceContainer = styled.div`
@@ -9,6 +10,10 @@ export const ExperienceContainer = styled.div`
 export const ExperienceSubject = styled.div`
   ${S.display}
   ${S.margin}
+
+  @media ${devices.mobileL} {
+    flex-direction: column;
+  }
 `;
 export const ExperienceContainerHeaderName = styled.div`
   ${S.padding}
@@ -42,6 +47,9 @@ export const ExperienceLeftSideArea = styled.div`
       color: ${({ theme }) => theme.whiteColor};
       background-color: ${({ theme }) => theme.badgeColor};
     }
+  }
+  @media ${devices.mobileL} {
+    max-width: 100%;
   }
 `;
 

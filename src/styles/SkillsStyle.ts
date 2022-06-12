@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import * as S from "./CommonCssStyles";
+import { devices } from "./MediaQueryStyles";
 
 interface Props {
   BackColor: string;
@@ -79,6 +80,12 @@ export const SkillsLeftSideArea = styled.div`
   h4 {
     ${S.commonH4Style}
   }
+
+  @media ${devices.mobileL} {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+  }
 `;
 
 export const SkillsRightSideArea = styled.div`
@@ -112,6 +119,13 @@ export const SkillsList = styled.div`
     li {
       ${S.commonDisplay}
       font-size: 1.2rem;
+    }
+    @media ${devices.mobileL} {
+      display: flex;
+      li {
+        ${S.commonDisplay}
+        justify-content: flex-start;
+      }
     }
   }
 `;

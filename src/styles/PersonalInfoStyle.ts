@@ -7,8 +7,7 @@ export const CommonContainer = styled.div`
   margin-top: 3rem !important;
 
   @media ${devices.mobileL} {
-    height: calc(var(--vh, 1vh) * 70);
-    margin-top: 5rem !important;
+    height: calc(var(--vh, 1vh) * 62);
   }
 `;
 
@@ -17,7 +16,8 @@ export const CommonSubject = styled.div`
   ${S.margin}
 
   @media ${devices.mobileL} {
-    flex-direction: column;
+    flex-direction: row;
+    height: 100%;
   }
 `;
 
@@ -27,8 +27,10 @@ export const LeftSideArea = styled.div`
   ${S.commonLeftSideArea}
 
   @media ${devices.mobileL} {
-    flex: 0 0 50%;
+    flex: 0 0 55%;
     max-width: 100%;
+    height: 50%;
+    margin: 0 auto;
   }
 `;
 
@@ -42,6 +44,10 @@ export const ProfileImg = styled.div`
   height: 100%;
   width: 100%;
   background-image: url("https://user-images.githubusercontent.com/66737450/173180777-63b4f6f9-1e42-47a8-af9d-f24b51eed1e1.png");
+
+  @media ${devices.mobileL} {
+    background-size: contain;
+  }
 `;
 
 export const RightSideArea = styled.div`
@@ -53,7 +59,7 @@ p {
   }
 
   @media ${devices.mobileL} {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 100%;
   }
 `;
@@ -117,30 +123,4 @@ export const SimpleIntroduce = styled.div`
   i {
     padding-right: 0.5rem;
   }
-`;
-
-export const LatestUpdated = styled.p<Props>`
-  ${S.commonPTag}
-  text-align: right;
-
-  strong {
-    font-size: 80%;
-  }
-
-  span {
-    padding: 0.25em 0.4em;
-    margin-left: 10px;
-    border-radius: 0.25rem;
-    color: ${({ theme }) => theme.whiteColor};
-    background-color: ${(props) => props.BackColor};
-    font-size: 75%;
-    font-weight: 700;
-  }
-`;
-
-export const SignatureName = styled.p`
-  ${S.commonPTag}
-  text-align: right;
-  font-family: cursive;
-  font-size: 1.5em;
 `;

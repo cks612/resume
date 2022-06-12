@@ -3,8 +3,12 @@ import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle`
     ${reset}
+    :root {
+       --vh: 100%;
+   }
   *{
     box-sizing:border-box;
+  
   }
   html,body{
 

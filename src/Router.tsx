@@ -2,26 +2,31 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
 import Main from "./pages/Main/index";
 import { BrowserView, MobileView } from "react-device-detect";
+import { useEffect } from "react";
 
 export default function Router() {
+  function setScreenSize() {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  }
+  useEffect(() => {
+    setScreenSize();
+  });
   return (
     <>
-      <BrowserView>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserView>
           <Nav />
           <Routes>
             <Route path="/" element={<Main />} />
           </Routes>
-        </BrowserRouter>
-      </BrowserView>
-      <MobileView>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-          <Nav />
+        </BrowserView>
+        <MobileView>
           <Routes>
             <Route path="/" element={<Main />} />
           </Routes>
-        </BrowserRouter>
-      </MobileView>
+        </MobileView>
+      </BrowserRouter>
     </>
   );
 }
