@@ -35,7 +35,7 @@ export const Introduce = () => {
           </p>
           <S.LatestUpdated BackColor={themeContext["grayColor"]}>
             <strong>Last Updated On</strong>
-            <span>2022 . 06. 12</span>
+            <span>2022 . 06. 13</span>
           </S.LatestUpdated>
           <S.SignatureName>kyusung</S.SignatureName>
         </S.RightSideArea>
