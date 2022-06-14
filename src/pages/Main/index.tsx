@@ -134,6 +134,7 @@ const MainHeaderImg = styled.div`
   top: 0;
   width: 149px;
   height: 149px;
+  border-radius: 10%;
   background-image: url("https://camo.githubusercontent.com/25f9d37196ab6f1073589ea5ffc871515d2e56e35ecd546514a0c8d6ac293d76/687474703a2f2f692e696d6775722e636f6d2f6833757477494b2e706e67");
 
   @media ${devices.mobileL} {
