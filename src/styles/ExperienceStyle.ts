@@ -27,6 +27,7 @@ export const ExperienceContainerHeaderName = styled.div`
 
     span {
       color: ${({ theme }) => theme.mainColor};
+      font-weight: 900;
     }
   }
 `;
@@ -45,7 +46,7 @@ export const ExperienceLeftSideArea = styled.div`
     &:nth-child(2) {
       margin-right: 0.25rem;
       color: ${({ theme }) => theme.whiteColor};
-      background-color: ${({ theme }) => theme.mainColor};
+      background-color: ${({ theme }) => theme.pointColor};
     }
     &:nth-last-child(1) {
       color: ${({ theme }) => theme.whiteColor};

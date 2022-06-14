@@ -32,6 +32,7 @@ export const SkillsContainerHeaderName = styled.div`
 
     span {
       color: ${({ theme }) => theme.mainColor};
+      font-weight: 900;
     }
 
     small {

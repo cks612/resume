@@ -31,7 +31,7 @@ const SkillsPart = ({
                       <S.SkillsName
                         BackColor={
                           data.rating === 3
-                            ? themeContext["mainColor"]
+                            ? themeContext["pointColor"]
                             : data.rating === 2
                             ? themeContext["grayColor"]
                             : themeContext["fontColor"]

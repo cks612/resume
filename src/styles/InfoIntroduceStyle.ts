@@ -74,8 +74,8 @@ export const CommonFontStyle = styled.h1`
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: ${({ theme }) => theme.mainColor};
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 900;
   line-height: 1.2;
 
   @media ${devices.mobileL} {

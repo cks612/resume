@@ -14,13 +14,12 @@ export const Introduce = () => {
         <S.RightSideArea>
           <p>
             쉬운 코드를 짜는 단순 Coder가 아닌 가독성 좋은 Programmer가 되기
-            위해 더 고민하고 더 나은 결과를 위해 노력해서 더 좋은 성과를
-            얻을려고 노력중인 프론트엔드 주니어 개발자입니다. 웹 개발에 필요한
-            JavaScript를 기본으로 React.js와 같은 트렌드의 프레임워크를
-            중점적으로 학습하며 Styled-Components, AWS, GIT 등을 같이 사용하며
-            프로젝트를 설계부터 개발, 그리고 배포까지 한 경험이 있습니다. 현재
-            TypeScript, React-Query, 그리고 Recoil을 집중적으로 공부하고 적용해
-            보는 연습을 하고 있습니다.
+            위해 더 고민하고 더 나은 결과를 위해 노력중인 프론트엔드 주니어
+            개발자입니다. 웹 개발에 필요한 JavaScript를 기본으로 React.js와 같은
+            트렌드의 프레임워크를 중점적으로 학습하며 Styled-Components, AWS,
+            GIT 등을 같이 사용하며 프로젝트를 설계부터 개발, 그리고 배포까지 한
+            경험이 있습니다. 현재 TypeScript, React-Query, 그리고 Recoil을
+            집중적으로 공부하고 적용해 보는 연습을 하고 있습니다.
           </p>
           <p>
             OpenAPI와 공공데이터 활용에 관심이 많고, 다양한 방법으로 프로젝트에
