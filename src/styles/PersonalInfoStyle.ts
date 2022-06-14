@@ -43,6 +43,7 @@ export const ProfileImg = styled.div`
   ${S.commonBorderBackSize}
   height: 100%;
   width: 100%;
+  border-radius: 10%;
   background-image: url("https://user-images.githubusercontent.com/66737450/173180777-63b4f6f9-1e42-47a8-af9d-f24b51eed1e1.png");
 `;
 
