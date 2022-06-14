@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import * as S from "./CommonCssStyles";
-import { devices } from "./MediaQueryStyles";
+import * as S from "./__CommonCssStyles";
+import { devices } from "./__MediaQueryStyles";
 
 interface Props {
   BackColor: string;

@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
 import { SkillsDataProps } from "../../types/commonTypes";
-import * as S from "../../styles/SkillsStyle";
-import { Line } from "../../styles/CommonStyle";
+import * as S from "../../styles/__SkillsStyle";
+import { Line } from "../../styles/__CommonStyle";
 
 const SkillsPart = ({
   LISTDATA,

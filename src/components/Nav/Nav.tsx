@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { devices } from "../../styles/MediaQueryStyles";
+import { devices } from "../../styles/__MediaQueryStyles";
 
 const Nav = () => {
   return <NavHeader></NavHeader>;

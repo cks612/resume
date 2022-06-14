@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "styled-components";
-import * as S from "../../styles/InfoIntroduceStyle";
+import * as S from "../../styles/__InfoIntroduceStyle";
 
 export const Introduce = () => {
   const themeContext = useContext(ThemeContext);
