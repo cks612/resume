@@ -12,6 +12,7 @@ export default function Router() {
   useEffect(() => {
     setScreenSize();
   });
+
   return (
     <>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
