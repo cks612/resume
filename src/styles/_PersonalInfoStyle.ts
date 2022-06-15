@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import * as S from "./__CommonCssStyles";
+import * as S from "./_CommonCssStyles";
 import { Props } from "../types/commonTypes";
-import { devices } from "./__MediaQueryStyles";
+import { devices } from "./_MediaQueryStyles";
 
 export const CommonContainer = styled.div`
   margin-top: 3rem !important;
 
   @media ${devices.mobileL} {
-    height: calc(var(--vh, 1vh) * 100vh);
-    margin-top: 5rem !important;
+    height: calc(var(--vh, 1vh) * 100);
   }
 `;
 
@@ -17,7 +16,8 @@ export const CommonSubject = styled.div`
   ${S.margin}
 
   @media ${devices.mobileL} {
-    flex-direction: column;
+    flex-direction: row;
+    height: 100%;
   }
 `;
 
@@ -27,8 +27,10 @@ export const LeftSideArea = styled.div`
   ${S.commonLeftSideArea}
 
   @media ${devices.mobileL} {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 100%;
+    height: 59%;
+    margin: 0 auto;
   }
 `;
 
@@ -41,6 +43,7 @@ export const ProfileImg = styled.div`
   ${S.commonBorderBackSize}
   height: 100%;
   width: 100%;
+  border-radius: 10%;
   background-image: url("https://user-images.githubusercontent.com/66737450/173180777-63b4f6f9-1e42-47a8-af9d-f24b51eed1e1.png");
 `;
 
@@ -53,7 +56,7 @@ p {
   }
 
   @media ${devices.mobileL} {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 100%;
   }
 `;
@@ -74,8 +77,8 @@ export const CommonFontStyle = styled.h1`
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: ${({ theme }) => theme.mainColor};
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 500;
   line-height: 1.2;
 
   @media ${devices.mobileL} {
@@ -117,30 +120,4 @@ export const SimpleIntroduce = styled.div`
   i {
     padding-right: 0.5rem;
   }
-`;
-
-export const LatestUpdated = styled.p<Props>`
-  ${S.commonPTag}
-  text-align: right;
-
-  strong {
-    font-size: 80%;
-  }
-
-  span {
-    padding: 0.25em 0.4em;
-    margin-left: 10px;
-    border-radius: 0.25rem;
-    color: ${({ theme }) => theme.whiteColor};
-    background-color: ${(props) => props.BackColor};
-    font-size: 75%;
-    font-weight: 700;
-  }
-`;
-
-export const SignatureName = styled.p`
-  ${S.commonPTag}
-  text-align: right;
-  font-family: cursive;
-  font-size: 1.5em;
 `;

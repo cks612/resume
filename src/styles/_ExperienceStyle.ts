@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import * as S from "./__CommonCssStyles";
-import { devices } from "./__MediaQueryStyles";
+import * as S from "./_CommonCssStyles";
+import { devices } from "./_MediaQueryStyles";
 // import { Props } from "../types/commonTypes";
 
 export const ExperienceContainer = styled.div`

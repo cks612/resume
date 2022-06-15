@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import SkillsPart from "../../components/Skills";
-import * as C from "../../styles/__CommonCssStyles";
-import * as S from "../../styles/__SkillsStyle";
-import * as E from "../../styles/__ExperienceStyle";
+import * as C from "../../styles/_CommonCssStyles";
+import * as S from "../../styles/_SkillsStyle";
+import * as E from "../../styles/_ExperienceStyle";
 import * as D from "../../constants/data";
 import { PersonalInfo } from "../../components/Info";
 import { Introduce } from "../../components/Introduce";
 import { Experience } from "../../components/Experience";
-import { devices } from "../../styles/__MediaQueryStyles";
+import { devices } from "../../styles/_MediaQueryStyles";
 
 const Main = () => {
   return (

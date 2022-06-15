@@ -1,7 +1,7 @@
 import React from "react";
-import { Line } from "../../styles/__CommonStyle";
+import { Line } from "../../styles/_CommonStyle";
 import { ExperienceProps } from "../../types/commonTypes";
-import * as S from "../../styles/__ExperienceStyle";
+import * as S from "../../styles/_ExperienceStyle";
 
 export const Experience = ({
   startDate,

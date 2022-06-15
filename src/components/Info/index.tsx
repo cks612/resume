@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../../styles/__PersonalInfoStyle";
+import * as S from "../../styles/_PersonalInfoStyle";
 
 export const PersonalInfo = () => {
   return (
