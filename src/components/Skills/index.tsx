@@ -1,56 +1,52 @@
-import { useContext } from "react";
-import { ThemeContext } from "styled-components";
-import { SkillsDataProps } from "../../types/commonTypes";
 import * as S from "../../styles/_SkillsStyle";
-import { Line } from "../../styles/_CommonStyle";
+import * as D from "../../constants/data";
+import SkillsPart from "../../components/Skills/skillsComponent";
 
-const SkillsPart = ({
-  LISTDATA,
-  title,
-  Boolean,
-}: {
-  LISTDATA: SkillsDataProps[];
-  title: string;
-  Boolean: boolean;
-}) => {
-  const themeContext = useContext(ThemeContext);
-
+const SkillsPartIndex = () => {
   return (
     <>
-      <S.SkillsSubject>
-        <S.SkillsLeftSideArea>
-          <h4>{title}</h4>
-        </S.SkillsLeftSideArea>
-        <S.SkillsRightSideArea>
-          <S.SkillsRightSideAreaContainer>
-            <S.SkillsList>
-              <ul>
-                {LISTDATA?.map((data) => {
-                  return (
-                    <li key={data.id}>
-                      <S.SkillsName
-                        BackColor={
-                          data.rating === 3
-                            ? themeContext["pointColor"]
-                            : data.rating === 2
-                            ? themeContext["grayColor"]
-                            : themeContext["fontColor"]
-                        }
-                      >
-                        {data.rating}
-                      </S.SkillsName>
-                      {data.name}
-                    </li>
-                  );
-                })}
-              </ul>
-            </S.SkillsList>
-          </S.SkillsRightSideAreaContainer>
-        </S.SkillsRightSideArea>
-      </S.SkillsSubject>
-      {Boolean && <Line />}
+      <S.SkillsContainer>
+        <S.SkillsSubject>
+          <S.SkillsContainerHeader>
+            <S.SkillsContainerHeaderName>
+              <h2>
+                <span>SKILL</span>
+                <small>
+                  <i className="fa-solid fa-circle-question" />
+                  <div>
+                    <p> 1 : 기초수준</p>
+                    <p> 2 : 취미 개발 수준 및 공부중</p>
+                    <p> 3 : Production 개발 가능</p>
+                  </div>
+                </small>
+              </h2>
+            </S.SkillsContainerHeaderName>
+          </S.SkillsContainerHeader>
+        </S.SkillsSubject>
+
+        <SkillsPart
+          LISTDATA={D.FRONT_END_SKILLS}
+          title="Front-End"
+          Boolean={true}
+        ></SkillsPart>
+        <SkillsPart
+          LISTDATA={D.BACK_END_SKILLS}
+          title="Back-End"
+          Boolean={true}
+        ></SkillsPart>
+        <SkillsPart
+          LISTDATA={D.DEVOPS_SKILLS}
+          title="DevOps"
+          Boolean={true}
+        ></SkillsPart>
+        <SkillsPart
+          LISTDATA={D.COLLABORATION_TOOLS}
+          title="Collaboration & Tools"
+          Boolean={false}
+        ></SkillsPart>
+      </S.SkillsContainer>
     </>
   );
 };
 
-export default SkillsPart;
+export default SkillsPartIndex;
