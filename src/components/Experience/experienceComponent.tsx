@@ -11,7 +11,7 @@ export const Experience = ({
   period,
   title,
   subTitle,
-  Boolean,
+  isLineNeeded,
   experienceDataList,
   experienceKeywordDataList,
 }: {
@@ -21,7 +21,7 @@ export const Experience = ({
   period: string;
   title: string;
   subTitle: string;
-  Boolean: boolean;
+  isLineNeeded: boolean;
   experienceDataList: ExperienceProps[];
   experienceKeywordDataList: ExperienceProps[];
 }) => {
@@ -51,7 +51,7 @@ export const Experience = ({
           </div>
         </S.ExperienceRightSideArea>
       </S.ExperienceSubject>
-      {Boolean && <Line />}
+      {isLineNeeded && <Line />}
     </>
   );
 };

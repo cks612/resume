@@ -21,7 +21,7 @@ export const ExperiencePartIndex = () => {
         period="1개월"
         title="머치스퀘어"
         subTitle="1달간 기업협업 인턴으로 참여하여 실무 개발 프로젝트를 진행 "
-        Boolean={true}
+        isLineNeeded={true}
         experienceDataList={D.CORPORATE_COOPERATION}
         experienceKeywordDataList={D.COOPERATION_KEYWORDS_LIST}
       />
@@ -33,7 +33,7 @@ export const ExperiencePartIndex = () => {
         period="3개월"
         title="Wecode"
         subTitle="Wecode 부트캠프 Front-End 과정 32기"
-        Boolean={true}
+        isLineNeeded={true}
         experienceDataList={D.WECODE_EXPERIENCE_LIST}
         experienceKeywordDataList={D.WECODE_KEYWORDS_LIST}
       />
@@ -45,7 +45,7 @@ export const ExperiencePartIndex = () => {
         period="6개월"
         title="쌍용 교육센터"
         subTitle="6개월 국비지원 Java Full Stack 과정"
-        Boolean={false}
+        isLineNeeded={false}
         experienceDataList={D.SSANGYONG_EXPERIENCE}
         experienceKeywordDataList={D.SSANGYONG_KEYWORDS_LIST}
       />

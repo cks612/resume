@@ -27,22 +27,22 @@ const SkillsPartIndex = () => {
         <SkillsPart
           LISTDATA={D.FRONT_END_SKILLS}
           title="Front-End"
-          Boolean={true}
+          isLineNeeded={true}
         ></SkillsPart>
         <SkillsPart
           LISTDATA={D.BACK_END_SKILLS}
           title="Back-End"
-          Boolean={true}
+          isLineNeeded={true}
         ></SkillsPart>
         <SkillsPart
           LISTDATA={D.DEVOPS_SKILLS}
           title="DevOps"
-          Boolean={true}
+          isLineNeeded={true}
         ></SkillsPart>
         <SkillsPart
           LISTDATA={D.COLLABORATION_TOOLS}
           title="Collaboration & Tools"
-          Boolean={false}
+          isLineNeeded={false}
         ></SkillsPart>
       </S.SkillsContainer>
     </>

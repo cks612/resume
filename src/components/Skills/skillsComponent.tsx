@@ -7,11 +7,11 @@ import { Line } from "../../styles/_CommonStyle";
 const SkillsPart = ({
   LISTDATA,
   title,
-  Boolean,
+  isLineNeeded,
 }: {
   LISTDATA: SkillsDataProps[];
   title: string;
-  Boolean: boolean;
+  isLineNeeded: boolean;
 }) => {
   const themeContext = useContext(ThemeContext);
 
@@ -48,7 +48,7 @@ const SkillsPart = ({
           </S.SkillsRightSideAreaContainer>
         </S.SkillsRightSideArea>
       </S.SkillsSubject>
-      {Boolean && <Line />}
+      {isLineNeeded && <Line />}
     </>
   );
 };
