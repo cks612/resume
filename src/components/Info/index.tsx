@@ -10,7 +10,6 @@ export const PersonalInfo = () => {
             <S.ProfileImg />
           </S.ProfileImgContainer>
         </S.LeftSideArea>
-
         <S.RightSideArea>
           <S.RightSideContents>
             <S.MyName>
