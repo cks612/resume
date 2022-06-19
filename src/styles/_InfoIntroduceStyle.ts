@@ -32,18 +32,6 @@ export const LeftSideArea = styled.div`
   }
 `;
 
-export const ProfileImgContainer = styled.div`
-  height: 100%;
-  padding-bottom: 1rem !important;
-`;
-
-export const ProfileImg = styled.div`
-  ${S.commonBorderBackSize}
-  height: 100%;
-  width: 100%;
-  background-image: url("https://user-images.githubusercontent.com/66737450/173180777-63b4f6f9-1e42-47a8-af9d-f24b51eed1e1.png");
-`;
-
 export const RightSideArea = styled.div`
   ${S.padding}
   ${S.commonRightSideArea}

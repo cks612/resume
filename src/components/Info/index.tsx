@@ -7,7 +7,12 @@ export const PersonalInfo = () => {
       <S.CommonSubject>
         <S.LeftSideArea>
           <S.ProfileImgContainer>
-            <S.ProfileImg />
+            <S.ProfileImg>
+              <img
+                src="https://user-images.githubusercontent.com/66737450/174422458-b4392872-c9d4-4dd2-a9c3-1472a0a47a43.JPG"
+                alt="위코드 커뮤니티상 최규성"
+              />
+            </S.ProfileImg>
           </S.ProfileImgContainer>
         </S.LeftSideArea>
         <S.RightSideArea>
