@@ -42,12 +42,12 @@ export const ProfileImg = styled.div`
   ${S.commonBorderBackSize}
   height: 100%;
   width: 100%;
-  border-radius: 10%;
   /* background-image: url("https://user-images.githubusercontent.com/66737450/174422458-b4392872-c9d4-4dd2-a9c3-1472a0a47a43.JPG"); */
 
   img {
     width: 100%;
     height: 100%;
+    border-radius: 10%;
     object-fit: cover;
   }
 `;
