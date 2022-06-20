@@ -17,7 +17,7 @@ export const ExperiencePartIndex = () => {
       <Experience
         startDate="2022.05.16"
         endDate="2022.06.16"
-        going="협업끝"
+        going="협업종료"
         period="1개월"
         title="머치스퀘어"
         subTitle="1달간 기업협업 인턴으로 참여하여 실무 개발 프로젝트를 진행 "
