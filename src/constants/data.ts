@@ -71,8 +71,7 @@ export const COOPERATION_KEYWORDS_LIST: ExperienceProps[] = [
 export const WECODE_EXPERIENCE_LIST: ExperienceProps[] = [
   {
     id: 1,
-    description:
-      "프론트엔드 수강생은 현대 웹 개발에 가장 많이 사용하는 React 라이브러리 학습",
+    description: "현대 웹 개발에 가장 많이 사용하는 React 라이브러리 학습",
   },
   {
     id: 2,
