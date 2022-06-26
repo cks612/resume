@@ -113,7 +113,8 @@ export const ContactRow = styled.div`
   i {
     width: 16px;
   }
-  .lastone {
+  .lastone,
+  .fa-circle-play {
     margin-left: 10px;
   }
 `;

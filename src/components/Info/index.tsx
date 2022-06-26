@@ -70,6 +70,14 @@ export const PersonalInfo = () => {
                 >
                   노션 포트폴리오
                 </a>
+                <i className="fa-solid fa-circle-play"></i>
+                <a
+                  href="https://cks612.github.io/playground/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Voyage's Playground
+                </a>
               </S.ContactRow>
             </S.Contact>
           </S.RightSideContents>
