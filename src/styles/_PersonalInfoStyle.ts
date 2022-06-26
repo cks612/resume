@@ -109,6 +109,13 @@ export const ContactRow = styled.div`
       color: #424242;
     }
   }
+
+  i {
+    width: 16px;
+  }
+  .lastone {
+    margin-left: 10px;
+  }
 `;
 export const SimpleIntroduce = styled.div`
   position: relative;

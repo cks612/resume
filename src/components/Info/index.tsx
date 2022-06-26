@@ -42,13 +42,33 @@ export const PersonalInfo = () => {
                 </a>
               </S.ContactRow>
               <S.ContactRow>
-                <i className="fa fa-solid fa-blog " />
+                <i className="fa fa-solid fa-blog" />
                 <a
                   href="https://voyage-dev.tistory.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   https://voyage-dev.tistory.com/
+                </a>
+              </S.ContactRow>
+              <S.ContactRow>
+                <i className="fa-solid fa-file" />
+                <a
+                  href="https://orchid-wolfberry-ce6.notion.site/861e67b0f513483cbdf5b92614e63e21"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  노션 이력서
+                </a>
+
+                <i className="fa-regular fa-id-card lastone" />
+
+                <a
+                  href="https://orchid-wolfberry-ce6.notion.site/portfolio-da7381b8f0d64eecb71b472c47dd7852"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  노션 포트폴리오
                 </a>
               </S.ContactRow>
             </S.Contact>
