@@ -54,7 +54,7 @@ export const PersonalInfo = () => {
               <S.ContactRow>
                 <i className="fa-solid fa-file" />
                 <a
-                  href="https://orchid-wolfberry-ce6.notion.site/861e67b0f513483cbdf5b92614e63e21"
+                  href="https://orchid-wolfberry-ce6.notion.site/1fc3ee07720a4a44bc20703a02bface6"
                   target="_blank"
                   rel="noreferrer"
                 >
