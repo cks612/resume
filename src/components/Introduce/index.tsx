@@ -18,8 +18,9 @@ export const Introduce = () => {
             개발자입니다. 웹 개발에 필요한 JavaScript를 기본으로 React.js와 같은
             트렌드의 프레임워크를 중점적으로 학습하며 Styled-Components, AWS,
             GIT 등을 같이 사용하며 프로젝트를 설계부터 개발, 그리고 배포까지 한
-            경험이 있습니다. 현재 TypeScript, React-Query, 그리고 Recoil을
-            집중적으로 공부하고 적용해 보는 연습을 하고 있습니다.
+            경험이 있습니다. 현재 Next.js, TypeScript, React-Query, 그리고 여러
+            상태관리 라이브러리를 집중적으로 공부하고 적용해 보는 연습을 하고
+            있습니다.
           </p>
           <p>
             OpenAPI와 공공데이터 활용에 관심이 많고, 다양한 방법으로 프로젝트에
@@ -37,7 +38,7 @@ export const Introduce = () => {
           </p>
           <S.LatestUpdated BackColor={themeContext["grayColor"]}>
             <strong>Last Updated On</strong>
-            <span>2022 . 07. 13</span>
+            <span>2023. 01. 02</span>
           </S.LatestUpdated>
           <S.SignatureName>kyusung</S.SignatureName>
         </S.RightSideArea>

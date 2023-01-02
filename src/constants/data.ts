@@ -9,6 +9,8 @@ export const FRONT_END_SKILLS: SkillsDataProps[] = [
   { id: 5, name: "React.js", rating: 3 },
   { id: 6, name: "SASS", rating: 3 },
   { id: 7, name: "TypeScript", rating: 2 },
+  { id: 8, name: "Zustand", rating: 2 },
+  { id: 9, name: "Next.js", rating: 3 },
 ];
 
 export const BACK_END_SKILLS: SkillsDataProps[] = [
