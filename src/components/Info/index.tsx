@@ -64,11 +64,11 @@ export const PersonalInfo = () => {
                 <i className="fa-regular fa-id-card lastone" />
 
                 <a
-                  href="https://orchid-wolfberry-ce6.notion.site/portfolio-da7381b8f0d64eecb71b472c47dd7852"
+                  href="https://voyage-portfolio.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  노션 포트폴리오
+                  포트폴리오
                 </a>
                 <i className="fa-solid fa-circle-play"></i>
                 <a
