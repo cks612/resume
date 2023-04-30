@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "styled-components";
-import * as S from "../../styles/_InfoIntroduceStyle";
+import * as S from "./styles";
 
 export const Introduce = () => {
   const themeContext = useContext(ThemeContext);
@@ -38,7 +38,7 @@ export const Introduce = () => {
           </p>
           <S.LatestUpdated BackColor={themeContext["grayColor"]}>
             <strong>Last Updated On</strong>
-            <span>2023. 01. 02</span>
+            <span>2023. 04. 30</span>
           </S.LatestUpdated>
           <S.SignatureName>kyusung</S.SignatureName>
         </S.RightSideArea>

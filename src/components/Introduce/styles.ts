@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import * as S from "./_CommonCssStyles";
-import { Props } from "../types/commonTypes";
-import { devices } from "./_MediaQueryStyles";
+import * as S from "../../styles/_CommonCssStyles";
+import { devices } from "../../styles/_MediaQueryStyles";
+import { Props } from "../../types/commonTypes";
 
 export const CommonContainer = styled.div`
   margin-top: 3rem !important;

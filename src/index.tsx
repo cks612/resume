@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <>
-    <GlobalStyles />
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Router />
     </ThemeProvider>
   </>

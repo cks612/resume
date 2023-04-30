@@ -16,24 +16,45 @@ export const Experience = ({
   experienceKeywordDataList,
 }: {
   startDate: string;
-  endDate: string;
+  endDate?: string;
   going: string;
-  period: string;
+  period?: string;
   title: string;
   subTitle: string;
   isLineNeeded: boolean;
   experienceDataList: ExperienceProps[];
   experienceKeywordDataList: ExperienceProps[];
 }) => {
+  const today = new Date();
+  const start = new Date(startDate);
+
+  const differenceDate = () => {
+    if (endDate !== undefined) {
+      const end = new Date(endDate);
+      const differenceYear = end.getFullYear() - start.getFullYear();
+      const differenceMonth = end.getMonth() - start.getMonth();
+
+      return differenceYear > 0
+        ? differenceYear + "년 " + differenceMonth + "개월"
+        : differenceMonth + "개월";
+    } else {
+      const differenceYear = today.getFullYear() - start.getFullYear();
+      const differenceMonth = today.getMonth() + 1 - start.getMonth();
+      return differenceYear > 0
+        ? differenceYear + "년 " + differenceMonth + "개월"
+        : differenceMonth + "개월";
+    }
+  };
+
   return (
     <>
       <S.ExperienceSubject>
-        <S.ExperienceLeftSideArea>
+        <S.ExperienceLeftSideArea going={going}>
           <h4>
-            {startDate} ~ {endDate}
+            {startDate} ~ {endDate && endDate}
           </h4>
           <span>{going}</span>
-          <span>{period}</span>
+          <span>{differenceDate()}</span>
         </S.ExperienceLeftSideArea>
         <S.ExperienceRightSideArea>
           <h4>{title}</h4>

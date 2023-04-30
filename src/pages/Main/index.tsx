@@ -21,7 +21,7 @@ const Main = () => {
       {/* Skills Part */}
       <SkillsPartIndex />
 
-      {/* Project Part */}
+      {/* Experience Part */}
       <ExperiencePartIndex />
     </MainWrapper>
   );

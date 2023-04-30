@@ -15,10 +15,18 @@ export const ExperiencePartIndex = () => {
       </S.ExperienceSubject>
 
       <Experience
+        startDate="2023.02"
+        going="재직 중"
+        title="쇼퍼하우스"
+        subTitle="개발팀 프론트엔드 개발자"
+        isLineNeeded={true}
+        experienceDataList={D.SHOPPERHOUSE_LIST}
+        experienceKeywordDataList={D.SHOPPERHOSE_KEYWORDS}
+      />
+      <Experience
         startDate="2022.05.16"
         endDate="2022.06.16"
         going="협업종료"
-        period="1개월"
         title="머치스퀘어"
         subTitle="1달간 기업협업 인턴으로 참여하여 실무 개발 프로젝트를 진행 "
         isLineNeeded={true}
@@ -30,7 +38,6 @@ export const ExperiencePartIndex = () => {
         startDate="2022.03.28"
         endDate="2022.06.17"
         going="수료"
-        period="3개월"
         title="Wecode"
         subTitle="Wecode 부트캠프 Front-End 과정 32기"
         isLineNeeded={true}
@@ -42,7 +49,6 @@ export const ExperiencePartIndex = () => {
         startDate="2020.04.28"
         endDate="2020.10.20"
         going="수료"
-        period="6개월"
         title="쌍용 교육센터"
         subTitle="6개월 국비지원 Java Full Stack 과정"
         isLineNeeded={false}

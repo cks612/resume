@@ -1,8 +1,11 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import * as S from "./_CommonCssStyles";
 import { devices } from "./_MediaQueryStyles";
 // import { Props } from "../types/commonTypes";
 
+interface Props {
+  going?: string;
+}
 export const ExperienceContainer = styled.div`
   margin-top: 3rem !important;
 
@@ -31,7 +34,7 @@ export const ExperienceContainerHeaderName = styled.div`
     }
   }
 `;
-export const ExperienceLeftSideArea = styled.div`
+export const ExperienceLeftSideArea = styled.div<Props>`
   ${S.commonLeftSideArea}
   ${S.padding}
   text-align: right;
@@ -46,13 +49,24 @@ export const ExperienceLeftSideArea = styled.div`
     &:nth-child(2) {
       margin-right: 0.25rem;
       color: ${({ theme }) => theme.whiteColor};
-      background-color: ${({ theme }) => theme.pointColor};
+      ${(props) => {
+        if (props.going === "재직 중")
+          return css`
+            background: ${({ theme }) => theme.mainColor};
+          `;
+        else {
+          return css`
+            background: ${({ theme }) => theme.pointColor};
+          `;
+        }
+      }}
     }
     &:nth-last-child(1) {
       color: ${({ theme }) => theme.whiteColor};
       background-color: ${({ theme }) => theme.badgeColor};
     }
   }
+
   @media ${devices.mobileL} {
     max-width: 100%;
   }

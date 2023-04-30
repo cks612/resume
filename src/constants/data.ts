@@ -35,6 +35,42 @@ export const COLLABORATION_TOOLS: SkillsDataProps[] = [
   { id: 7, name: "Asana", rating: 1 },
 ];
 
+// Shopperhouse
+export const SHOPPERHOUSE_LIST = [
+  {
+    id: 1,
+    description:
+      "빅데이터/AI 기반 브랜드 애그리게이터 스타트업 (6명, 개발팀 3명)",
+  },
+  {
+    id: 2,
+    description: "자사 홈페이지 리뉴얼 프론트엔드 개발",
+  },
+  {
+    id: 3,
+    description: "인수 브랜드 홈페이지 프론트엔드 개발",
+  },
+  {
+    id: 4,
+    description:
+      "브랜드 가치평가 및 동반 성장 시스템 AiLEE 유지보수 및 대시보드 개발",
+  },
+  {
+    id: 5,
+    description: "ChatGPT 기반 인수 브랜드 홈페이지 챗봇 프론트엔드 개발",
+  },
+];
+
+export const SHOPPERHOSE_KEYWORDS: ExperienceProps[] = [
+  { id: 1, keywords: "React" },
+  { id: 2, keywords: "NextJS" },
+  { id: 3, keywords: "TypeScript" },
+  { id: 4, keywords: "Styled-Components" },
+  { id: 5, keywords: "Axios" },
+  { id: 6, keywords: "Redux" },
+  { id: 7, keywords: "AWS" },
+  { id: 8, keywords: "ChatGPT" },
+];
 // Experience 기업협업 Data
 export const CORPORATE_COOPERATION = [
   {
