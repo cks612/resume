@@ -10,5 +10,11 @@ export interface Props {
 export interface ExperienceProps {
   id: number;
   description?: string;
+  detail?: DetailDescriptionProps[];
   keywords?: string;
+}
+
+export interface DetailDescriptionProps {
+  id: number;
+  description?: string;
 }

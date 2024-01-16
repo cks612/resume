@@ -61,7 +61,18 @@ export const Experience = ({
           <i>{subTitle}</i>
           <ul>
             {experienceDataList?.map((data) => {
-              return <li key={data.id}>{data.description}</li>;
+              return (
+                <li key={data.id}>
+                  {data.description}
+                  {data.detail?.map((res) => {
+                    return (
+                      <ul key={res.id}>
+                        <li>{res.description}</li>
+                      </ul>
+                    );
+                  })}
+                </li>
+              );
             })}
           </ul>
           <strong>KeyWords</strong>

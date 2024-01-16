@@ -40,24 +40,131 @@ export const SHOPPERHOUSE_LIST = [
   {
     id: 1,
     description:
-      "빅데이터/AI 기반 브랜드 애그리게이터 스타트업 (6명, 개발팀 3명)",
+      "빅데이터/AI 기반 브랜드 애그리게이터 스타트업 (8명, 개발팀 5명)",
   },
   {
     id: 2,
-    description: "자사 홈페이지 리뉴얼 프론트엔드 개발",
+    description: "AiWMS 창고 관리 App 개발 및 운영",
+    detail: [
+      {
+        id: 1,
+        description:
+          "Flutter 기반 모바일 클라이언트 개발을 위한 스캐폴딩 적용 및 재사용 가능한 위젯 설계",
+      },
+      {
+        id: 2,
+        description: "Dio Interceptor 적용으로 토큰 갱신 자동화          ",
+      },
+      {
+        id: 3,
+        description: "Flutter Secure Storage 추가로 자동 로그인 구현",
+      },
+      {
+        id: 4,
+        description:
+          "Provider 및 MultiProvider로 불필요한 위젯 re-build 성능이슈 및 디버깅 향상",
+      },
+      {
+        id: 5,
+        description:
+          "바코드 스캐너 활용으로 제품 및 박스를 효율적으로 스캔 및 관리 기능 구현",
+      },
+      {
+        id: 6,
+        description: "구글 플레이 스토어 배포 및 버전관리",
+      },
+    ],
   },
   {
     id: 3,
-    description: "인수 브랜드 홈페이지 프론트엔드 개발",
+    description: "AiLEE (브랜드 가치평가 및 동반 성장 시스템) 개발 및 운영",
+    detail: [
+      {
+        id: 1,
+        description: "MUI 기반 빅데이터 데이터 그리드 및 다양한 분석 차트 적용",
+      },
+      {
+        id: 2,
+        description:
+          "회원가입 시 이메일을 통해 승인 여부를 확인하는 시스템 구축",
+      },
+      {
+        id: 3,
+        description:
+          "사용자 권한 관리 시스템으로 관리자, 팀 리더, 일반 사용자 등 다양한 역할에 대한 권한을 부여 시스템 개발",
+      },
+      {
+        id: 4,
+        description:
+          "직관적이고 사용자 친화적인 인터페이스를 설계하여, 사용자가 쉽게 시스템을 활용할 수 있도록 사용자 경험 향상          ",
+      },
+      {
+        id: 5,
+        description:
+          "WMS(Warehouse Management System) 시스템 구축으로 발주부터 창고 내부 업무까지 효율적으로 관리할 수 있도록 기여",
+      },
+    ],
   },
   {
     id: 4,
-    description:
-      "브랜드 가치평가 및 동반 성장 시스템 AiLEE 유지보수 및 대시보드 개발",
+    description: "퍼피럽 홈페이지 (자사 브랜드) 개발 및 운영",
+    detail: [
+      {
+        id: 1,
+        description: "Strapi Headless CMS 구축          ",
+      },
+      {
+        id: 2,
+        description: "네이버 NCP 및 CMS 활용 문자 인증 시스템 구축",
+      },
+      {
+        id: 3,
+        description:
+          "AI 개발자와 협업을 통한 ChatGPT 기반 챗봇 구축으로 불필요한 CS 최소화",
+      },
+      {
+        id: 4,
+        description:
+          "퍼피서더 구축으로 약 1000만원 참여금액 및 100만원 기부수익 발생",
+      },
+      {
+        id: 5,
+        description:
+          "Lighthouse를 활용하여 분석 및 최적화를 통해 성능 25% 개선 및 SEO 91점으로 향상          ",
+      },
+      {
+        id: 6,
+        description: "관리자 페이지 개발로 업무환경 개선",
+      },
+    ],
   },
   {
     id: 5,
-    description: "ChatGPT 기반 인수 브랜드 홈페이지 챗봇 프론트엔드 개발",
+    description: "쇼퍼하우스 홈페이지 리뉴얼 개발 및 운영",
+    detail: [
+      {
+        id: 1,
+        description: "Strapi Headless CMS 구축 및 리뉴얼 개발          ",
+      },
+      {
+        id: 2,
+        description: "Lazy Loading 도입으로 LCP 30% (2.4초 -> 1.7초) 개선",
+      },
+      {
+        id: 3,
+        description:
+          "Lighthouse를 활용하여 분석 및 최적화를 통해 성능 35%(74점 -> 99점) 개선 및 SEO 100점으로 향상",
+      },
+      {
+        id: 4,
+        description:
+          "IntersectionObserver 커스텀 훅 및 반응형 클라이언트 개발로 사용자 경험 향상",
+      },
+      {
+        id: 5,
+        description: "Github Actions 활용으로 CI/CD 구축",
+      },
+    ],
   },
 ];
 

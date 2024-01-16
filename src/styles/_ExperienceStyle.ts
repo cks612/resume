@@ -99,8 +99,20 @@ export const ExperienceRightSideArea = styled.div`
 
     li {
       font-size: 1rem;
+
+      ul {
+        margin: 0 0 0 1rem;
+        padding: 0;
+        list-style-type: "- ";
+
+        li {
+          font-size: 0.8rem;
+          font-weight: 300;
+        }
+      }
     }
   }
+
   strong {
     font-weight: 900;
   }
