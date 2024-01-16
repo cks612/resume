@@ -23,6 +23,8 @@ export const BACK_END_SKILLS: SkillsDataProps[] = [
 export const DEVOPS_SKILLS: SkillsDataProps[] = [
   { id: 1, name: "AWS-EC2", rating: 2 },
   { id: 2, name: "MySql", rating: 1 },
+  { id: 3, name: "S3", rating: 2 },
+  { id: 4, name: "CloudFront", rating: 2 },
 ];
 
 export const COLLABORATION_TOOLS: SkillsDataProps[] = [
