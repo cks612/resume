@@ -16,7 +16,8 @@ export const ExperiencePartIndex = () => {
 
       <Experience
         startDate="2023.02"
-        going="재직 중"
+        endDate="2024.05"
+        going="퇴사"
         title="쇼퍼하우스"
         subTitle="개발팀 프론트엔드 개발자"
         isLineNeeded={true}
