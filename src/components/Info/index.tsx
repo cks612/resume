@@ -64,7 +64,7 @@ export const PersonalInfo = () => {
                 <i className="fa-regular fa-id-card lastone" />
 
                 <a
-                  href="https://voyage-portfolio.vercel.app/"
+                  href="https://orchid-wolfberry-ce6.notion.site/portfolio-da7381b8f0d64eecb71b472c47dd7852?pvs=74"
                   target="_blank"
                   rel="noreferrer"
                 >
